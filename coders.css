@@ -1,7 +1,10 @@
 .container {
     width: 700px;
     margin:0 auto;
-    border:1px solid grey;
+    border:3px solid grey;
+}
+.container h2 {
+    font-size: 27px;
 }
 /*--------------------------------------Imagen Header*/
 header .chica {
@@ -26,10 +29,8 @@ header p {
     margin: 50px;
 }
 /*-----------------------------------------Habilidades*/
-.habilidades h2 {
-    margin-left: 20px;
-    margin-top:20px;
-    font-size: 27px;
+.habilidades {
+    margin:15px;
 }
 .habilidades ul {
     list-style: none;
@@ -52,17 +53,11 @@ header p {
     width: 150px;
 }
 /*-----------------------------------------Portafolio*/
-.portafolio h2 {
-    margin-left: 10px;
-    font-size: 27px;
-}
-.portafolio hr {
-    width:50px;
-    border:2px solid black;
-    margin-left:0px; 
-}
 .portafolio {
     margin:15px;
+}
+.portafolio .box {
+    padding:0px 20px;
 }
 .portafolio .foti {
    position:relative;
@@ -70,5 +65,5 @@ header p {
    padding:10px;
 }
 .portafolio img {
-    width: 200px;
+    width: 185px;
 }
