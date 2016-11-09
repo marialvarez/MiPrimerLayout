@@ -1,0 +1,74 @@
+.container {
+    width: 700px;
+    margin:0 auto;
+    border:1px solid grey;
+}
+/*--------------------------------------Imagen Header*/
+header .chica {
+    border-radius: 100%;
+    display:block;
+    margin:20px auto;
+}
+header img {
+    width: 20%;
+}
+
+/*----------------------------------Nombre y Apellido*/
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -15px;
+}
+header p { 
+    margin:0 60px;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+}
+/*-----------------------------------------Habilidades*/
+.habilidades h2 {
+    margin-left: 20px;
+    margin-top:20px;
+    font-size: 27px;
+}
+.habilidades ul {
+    list-style: none;
+    margin-left:-40px;
+}
+.habilidades ul li {
+    background:grey;
+    padding:20px;
+    margin:30px;  
+    font-size: 20px;
+    color:white;
+} 
+.habilidades .html {
+    width: 450px;
+}
+.habilidades  .css {
+    width: 280px;
+}
+.habilidades .javascript {
+    width: 150px;
+}
+/*-----------------------------------------Portafolio*/
+.portafolio h2 {
+    margin-left: 10px;
+    font-size: 27px;
+}
+.portafolio hr {
+    width:50px;
+    border:2px solid black;
+    margin-left:0px; 
+}
+.portafolio {
+    margin:15px;
+}
+.portafolio .foti {
+   position:relative;
+   display:inline-block;
+   padding:10px;
+}
+.portafolio img {
+    width: 200px;
+}
